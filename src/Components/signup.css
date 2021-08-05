@@ -1,0 +1,307 @@
+.signup-form{
+    /* border : 2px solid black; */
+    width: 70%;
+    align-items: left;
+    text-align: left;
+
+}
+
+
+.signup-whole{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.signup-left{
+    width: 100%;
+    /* border:2px solid red; */
+    height: 500px
+}
+
+.name-signup{
+    font-weight: bold;
+font-size: 25px;
+line-height: 42px;
+text-align: left;
+color: rgba(0, 0, 0, 0.5);
+margin-bottom: 10px;
+}
+
+.email-signup{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.password-signup{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.confirm-password-signup{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 42px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.input-name-signup{
+    /* background: rgba(196, 196, 196, 0.3); */
+    background: #E8F0FE;
+border-radius: 5px;
+width: 400px;
+text-align: left;
+margin: none;
+border: none;
+outline: none;
+height: 30px;
+margin-bottom: 10px;
+padding-left: 10px;
+}
+
+.input-email-signup{
+    /* background: rgba(196, 196, 196, 0.3) !important; */
+    background: #E8F0FE;
+    border-radius: 5px;
+    width: 400px;
+    text-align: left;
+    margin: none;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.input-password-signup{
+    /* background: rgba(196, 196, 196, 0.3); */
+    background: #E8F0FE;
+    border-radius: 5px;
+    width: 400px;
+    text-align: left;
+    margin: none;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.input-confirm-password{
+    /* background: rgba(196, 196, 196, 0.3); */
+    background: #E8F0FE;
+    border-radius: 5px;
+    width: 400px;
+    text-align: left;
+    margin: none;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.signup-btn{
+    background: #6C63FF;
+border-radius: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 7px;
+padding-bottom: 7px;
+width: fit-content;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-size: 20px;
+cursor: pointer;
+}
+
+.already-have{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+line-height: 28px;
+cursor: pointer;
+color: #661CA1;
+}
+
+@media (max-width:1100px){
+    .signup-left{
+       position: relative;
+       right:100px;
+    }
+
+    .signup-form{
+        position: relative;
+        right:100px;
+        width: 50%;
+    }
+
+    
+.input-name-signup{
+width: 300px;
+}
+
+.input-email-signup{
+    width: 300px;
+}
+
+.input-password-signup{
+    width: 300px;
+}
+
+.input-confirm-password{
+    /* background: rgba(196, 196, 196, 0.3); */
+
+    width: 300px;
+
+}
+
+}
+
+@media (max-width:1000px){
+    .signup-left{
+        height: 400px;
+        width: 90%;
+    }
+}
+
+@media (max-width:880px){
+
+    .signup-left{
+        height: 350px;
+        width: 100%;
+        display: none;
+    }
+
+    .signup-whole{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signup-form{
+
+        right: 0;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+   
+    }
+    .input-name-signup{
+        width: 450px;
+        }
+        
+        .input-email-signup{
+            width: 450px;
+        }
+        
+        .input-password-signup{
+            width: 450px;
+        }
+        
+        .input-confirm-password{
+            /* background: rgba(196, 196, 196, 0.3); */
+        
+            width: 450px;
+        
+        }
+        
+}
+
+@media (max-width:550px){
+
+    
+.name-signup{
+font-size: 20px;
+
+}
+
+.email-signup{
+    font-size: 20px;
+ 
+}
+
+.password-signup{
+    font-size: 20px;
+
+}
+
+.confirm-password-signup{
+
+    font-size: 20px;
+
+}
+
+
+
+    .input-name-signup{
+        width: 350px;
+        }
+        
+        .input-email-signup{
+            width: 350px;
+        }
+        
+        .input-password-signup{
+            width: 350px;
+        }
+        
+        .input-confirm-password{
+            /* background: rgba(196, 196, 196, 0.3); */
+        
+            width: 350px;
+        
+        }
+}
+@media (max-width:425px){
+    .input-name-signup{
+        width: 300px;
+        }
+        
+        .input-email-signup{
+            width: 300px;
+        }
+        
+        .input-password-signup{
+            width: 300px;
+        }
+        
+        .input-confirm-password{
+            /* background: rgba(196, 196, 196, 0.3); */
+        
+            width: 300px;
+        
+        }
+}
+@media (max-width:360px){
+    .input-name-signup{
+        width: 250px;
+        }
+        
+        .input-email-signup{
+            width: 250px;
+        }
+        
+        .input-password-signup{
+            width: 250px;
+        }
+        
+        .input-confirm-password{
+            /* background: rgba(196, 196, 196, 0.3); */
+        
+            width: 250px;
+        
+        }
+}

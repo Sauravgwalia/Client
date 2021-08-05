@@ -1,0 +1,40 @@
+.list-tab {
+  background: rgba(196, 196, 196, 0.05);
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  right: 2vw;
+  top: 15px;
+}
+.username {
+  color: #631fa3;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+}
+
+.email {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.address {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.mobilenumber {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  margin-bottom: 3px;
+}

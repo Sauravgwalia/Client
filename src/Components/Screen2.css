@@ -1,0 +1,12 @@
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tab-list {
+  width: 45%;
+  background: #e8f0fe;
+  height: 5vh;
+  cursor: pointer;
+  color: black;
+}
